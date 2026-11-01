@@ -75,21 +75,36 @@ The difference between training and testing accuracy indicates that the model ha
 
 ## Prediction Examples
 
-The following examples illustrate the model's predictions across the four
-classes in the dataset.
+The following examples illustrate four sample predictions made by the model.
 
-| MRI Image | Actual Class | Predicted Class |
+| Actual Class | Predicted Class | Result |
 |---|---|---|
-| ![No Tumor](images/prediction-no-tumor.jpg) | No Tumor | No Tumor |
-| ![Meningioma](images/prediction-meningioma.jpg) | Meningioma | Meningioma |
-| ![Glioma](images/prediction-glioma.jpg) | Glioma | No Tumor |
-| ![Pituitary](images/prediction-pituitary.jpg) | Pituitary | Meningioma |
+| No Tumor | No Tumor | Correct |
+| Meningioma | Meningioma | Correct |
+| Glioma | No Tumor | Incorrect |
+| Pituitary | Meningioma | Incorrect |
+
+### Sample MRI Predictions
+
+**1. No Tumor**
+
+![No Tumor Prediction](images/prediction-no-tumor.jpg)
+
+**2. Meningioma**
+
+![Meningioma Prediction](images/prediction-meningioma.jpg)
+
+**3. Glioma**
+
+![Glioma Prediction](images/prediction-glioma.jpg)
+
+**4. Pituitary**
+
+![Pituitary Prediction](images/prediction-pituitary.jpg)
 
 ## Confusion Matrix
 
-The confusion matrix illustrates the classification results across
-the four tumor categories, showing the relationship between actual
-and predicted labels.
+The confusion matrix illustrates the classification results across the four tumor categories, showing the relationship between actual and predicted labels.
 
 ![Confusion Matrix](images/confusion-matrix.png)
 
