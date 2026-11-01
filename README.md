@@ -80,10 +80,10 @@ classes in the dataset.
 
 | MRI Image | Actual Class | Predicted Class |
 |---|---|---|
-| ![No Tumor](images/prediction-no-tumor.png) | No Tumor | No Tumor |
-| ![Meningioma](images/prediction-meningioma.png) | Meningioma | Meningioma |
-| ![Glioma](images/prediction-glioma.png) | Glioma | No Tumor |
-| ![Pituitary](images/prediction-pituitary.png) | Pituitary | Meningioma |
+| ![No Tumor](images/prediction-no-tumor.jpg) | No Tumor | No Tumor |
+| ![Meningioma](images/prediction-meningioma.jpg) | Meningioma | Meningioma |
+| ![Glioma](images/prediction-glioma.jpg) | Glioma | No Tumor |
+| ![Pituitary](images/prediction-pituitary.jpg) | Pituitary | Meningioma |
 
 ## Confusion Matrix
 
