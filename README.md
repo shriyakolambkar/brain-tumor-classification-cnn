@@ -73,6 +73,26 @@ The model achieved the following classification accuracy:
 
 The difference between training and testing accuracy indicates that the model has scope for improvement in its generalisation performance.
 
+## Prediction Examples
+
+The following examples illustrate the model's predictions across the four
+classes in the dataset.
+
+| MRI Image | Actual Class | Predicted Class |
+|---|---|---|
+| ![No Tumor](images/prediction-no-tumor.png) | No Tumor | No Tumor |
+| ![Meningioma](images/prediction-meningioma.png) | Meningioma | Meningioma |
+| ![Glioma](images/prediction-glioma.png) | Glioma | No Tumor |
+| ![Pituitary](images/prediction-pituitary.png) | Pituitary | Meningioma |
+
+## Confusion Matrix
+
+The confusion matrix illustrates the classification results across
+the four tumor categories, showing the relationship between actual
+and predicted labels.
+
+![Confusion Matrix](images/confusion-matrix.png)
+
 ## Project Resources
 
 - **Google Colab Notebook:** [Open Brain Tumor Classification Notebook](https://colab.research.google.com/drive/1GD2gWFLGEACtlqa7qH3rB5wgiYsPF3Fb?usp=drive_link)
